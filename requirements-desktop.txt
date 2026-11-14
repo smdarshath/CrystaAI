@@ -1,0 +1,2 @@
+pywebview>=5.0   # native window on Windows (WebView2), macOS (WKWebView) and Linux; optional on Linux if python3-gi + gir1.2-webkit2 are installed
+psutil>=5.9        # optional: richer hardware info (battery/temperature) on Windows and macOS

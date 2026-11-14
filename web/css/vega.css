@@ -1,0 +1,29 @@
+/* VEGA: classic desktop file manager — steel panels, amber accents */
+#ws-vega{--a:#ff9f43;background:#1a1d21;color:#dfe3e8;font-family:system-ui,"Segoe UI",Roboto,sans-serif}
+#ws-vega .ws-back{border-color:var(--a);color:var(--a);background:transparent;border-radius:4px;letter-spacing:.05em;font-family:inherit}#ws-vega .ws-back:hover{background:var(--a);color:#241400}
+.f-toolbar,.f-ops{display:flex;gap:6px;align-items:center;padding:8px 10px;background:#262b31;border-bottom:1px solid #353c44;flex-wrap:wrap}
+.f-ops{background:#20242a}
+.f-btn{background:#323941;border:1px solid #444d57;color:#dfe3e8;border-radius:4px;padding:6px 10px;font-size:12px;cursor:pointer}.f-btn:hover:not([disabled]){border-color:var(--a)}.f-btn[disabled]{opacity:.4;cursor:default}
+.f-btn.primary{background:var(--a);color:#241400;border-color:var(--a)}.f-btn.danger{color:#ff7b6b}.f-btn.icon{padding:6px 8px}
+.f-crumbs{flex:1;display:flex;gap:2px;min-width:140px;overflow:auto;background:#181b1f;border:1px solid #3a424b;border-radius:4px;padding:3px 6px}
+.crumb{background:none;border:0;color:#cfd5dc;cursor:pointer;font-size:12px;padding:3px 5px;border-radius:3px;white-space:nowrap}.crumb:hover{background:#2f353c;color:var(--a)}.crumb::before{content:"› ";opacity:.4}
+.f-search{width:170px;background:#181b1f;border:1px solid #3a424b;border-radius:4px;color:#dfe3e8;padding:6px 8px;font-size:12px}
+.f-body{flex:1;display:grid;grid-template-columns:200px minmax(0,1fr) 290px;min-height:0}
+.f-side,.f-right{background:#1e2227;overflow:auto;padding:8px 0}.f-side{border-right:1px solid #353c44}.f-right{border-left:1px solid #353c44;padding:8px 10px}
+.f-title{font-size:10px;letter-spacing:.2em;color:#7d8791;padding:4px 8px}
+.f-node{display:flex;gap:4px;align-items:center;font-size:13px;padding:4px 6px;cursor:pointer;border-radius:3px;white-space:nowrap}.f-node:hover{background:#2c3238}.caret{width:12px;color:#7d8791}
+.f-main{overflow:auto;background:#1a1d21}.f-list{padding:4px}
+.f-row{display:grid;grid-template-columns:minmax(0,1fr) 90px 150px;gap:8px;padding:6px 8px;font-size:13px;border-radius:3px;cursor:default;align-items:center}
+.f-row:not(.head):hover{background:#262b31}.f-row.sel{background:rgba(255,159,67,.2);outline:1px solid var(--a)}.f-row.head{color:#7d8791;font-size:11px;border-bottom:1px solid #353c44;position:sticky;top:0;background:#1a1d21}
+.nm{display:flex;gap:8px;align-items:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ico{width:16px;height:13px;border-radius:2px;flex:none;background:#8a939d}.ico.folder{background:var(--a);border-radius:2px 5px 2px 2px}.ico.img{background:#5cc8a0}
+.f-list.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px}.f-list.grid .f-row{display:flex;flex-direction:column;text-align:center;padding:14px 6px}.f-list.grid .f-row span:nth-child(n+2){display:none}.f-list.grid .ico{width:42px;height:34px}.f-list.grid .nm{flex-direction:column;white-space:normal;overflow-wrap:anywhere}
+.f-empty{padding:20px;color:#7d8791;font-size:13px}
+.f-preview{background:#15181c;border:1px solid #353c44;border-radius:4px;min-height:140px;max-height:280px;overflow:auto;margin:4px 0 10px}.f-preview img{max-width:100%;display:block}.f-preview pre{margin:0;padding:8px;font-size:11px;white-space:pre-wrap;overflow-wrap:anywhere;color:#cdd3da}
+.f-info table{width:100%;font-size:11px;border-collapse:collapse}.f-info th{color:#7d8791;text-align:left;padding:3px 6px 3px 0;font-weight:400;vertical-align:top;width:34%}.f-info td{overflow-wrap:anywhere;padding:3px 0}
+.f-status{padding:5px 12px;font-size:11px;background:#262b31;border-top:1px solid #353c44;color:#9aa4ae;min-height:26px}
+.f-dialog{position:absolute;inset:0;background:rgba(0,0,0,.55);display:grid;place-items:center;z-index:5}.f-dbox{background:#262b31;border:1px solid var(--a);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:300px}
+.f-dbox input{background:#181b1f;border:1px solid #444d57;color:#fff;padding:8px;border-radius:4px}
+@media (max-width:900px){.f-body{grid-template-columns:150px minmax(0,1fr)}.f-right{display:none}}
+@media (max-width:560px){.f-body{grid-template-columns:minmax(0,1fr)}.f-side{display:none}.f-row{grid-template-columns:minmax(0,1fr) 70px}.f-row span:nth-child(3){display:none}}
+.f-logo{display:flex;flex-direction:column;line-height:1.1;padding:0 8px;border-left:3px solid var(--a)}.f-logo b{letter-spacing:.25em;color:var(--a);font-size:14px}.f-logo small{font-size:9px;color:#8a949e;letter-spacing:.08em}

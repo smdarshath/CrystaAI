@@ -1,0 +1,176 @@
+[
+ {
+  "id": "crysta",
+  "name": "CRYSTA",
+  "title": "Central AI",
+  "description": "Main AI and central coordinator: understands English, Tamil and Tanglish, answers simple questions directly and routes the rest to specialists.",
+  "module": "crysta",
+  "class": "Crysta",
+  "ui": {
+   "view": "home",
+   "title": "CRYSTA — Central AI"
+  },
+  "capabilities": [
+   "conversation",
+   "routing",
+   "identity",
+   "time and date",
+   "navigation"
+  ]
+ },
+ {
+  "id": "zykron",
+  "name": "ZYKRON",
+  "title": "Research Intelligence",
+  "description": "Research and web intelligence: live official-source research, competitions and scholarships, YouTube research, verified source links.",
+  "module": "zykron",
+  "class": "Zykron",
+  "ui": {
+   "view": "zykron",
+   "title": "ZYKRON — Research Intelligence"
+  },
+  "capabilities": [
+   "web research",
+   "official-source ranking",
+   "competitions & scholarships",
+   "YouTube search",
+   "caption analysis"
+  ]
+ },
+ {
+  "id": "nova",
+  "name": "NOVA",
+  "title": "Development Intelligence",
+  "description": "Coding and development: project explorer, editor, terminal, error explanation, run and test controls, logs.",
+  "module": "nova",
+  "class": "Nova",
+  "ui": {
+   "view": "nova",
+   "title": "NOVA — Development Intelligence"
+  },
+  "capabilities": [
+   "code editor",
+   "project explorer",
+   "terminal",
+   "error explainer",
+   "run/test",
+   "logs"
+  ]
+ },
+ {
+  "id": "astra",
+  "name": "ASTRA",
+  "title": "Science Intelligence",
+  "description": "Science and knowledge: explanations, formula solver, mathematics workspace, orbit and wave visualisations.",
+  "module": "astra",
+  "class": "Astra",
+  "ui": {
+   "view": "astra",
+   "title": "ASTRA — Science Intelligence"
+  },
+  "capabilities": [
+   "science topics",
+   "formula solver",
+   "function plotter",
+   "calculator",
+   "diagrams"
+  ]
+ },
+ {
+  "id": "vega",
+  "name": "VEGA",
+  "title": "Computer Intelligence",
+  "description": "Computer and file management: browse permitted folders, preview, create, rename, copy, move, open and (with confirmation) delete files.",
+  "module": "vega",
+  "class": "Vega",
+  "ui": {
+   "view": "vega",
+   "title": "VEGA — Computer Intelligence"
+  },
+  "capabilities": [
+   "file browser",
+   "preview",
+   "file operations",
+   "open apps",
+   "run commands",
+   "permissions"
+  ]
+ },
+ {
+  "id": "echo",
+  "name": "ECHO",
+  "title": "Voice Intelligence",
+  "description": "Voice and speech: voice studio, microphone status, voice selection, language, speed and volume.",
+  "module": "echo",
+  "class": "Echo",
+  "ui": {
+   "view": "echo",
+   "title": "ECHO — Voice Intelligence"
+  },
+  "capabilities": [
+   "speech output",
+   "speech input",
+   "voice selection",
+   "language",
+   "audio level"
+  ]
+ },
+ {
+  "id": "nexus",
+  "name": "NEXUS",
+  "title": "Memory Intelligence",
+  "description": "Memory and information retrieval: saved notes, project notes, searchable memory, timeline and categories.",
+  "module": "nexus",
+  "class": "Nexus",
+  "ui": {
+   "view": "nexus",
+   "title": "NEXUS — Memory Intelligence"
+  },
+  "capabilities": [
+   "notes",
+   "memory search",
+   "categories",
+   "timeline",
+   "export & delete"
+  ]
+ },
+ {
+  "id": "orion",
+  "name": "ORION",
+  "title": "Planning Intelligence",
+  "description": "Project planning and strategy: kanban board, milestones, timeline, progress and roadmap.",
+  "module": "orion",
+  "class": "Orion",
+  "ui": {
+   "view": "orion",
+   "title": "ORION — Planning Intelligence"
+  },
+  "capabilities": [
+   "kanban",
+   "milestones",
+   "timeline",
+   "roadmap",
+   "reminders"
+  ]
+ },
+ {
+  "id": "volt",
+  "name": "VOLT",
+  "title": "Hardware Intelligence",
+  "description": "Hardware and device intelligence: real CPU, RAM, storage, battery, network and system information.",
+  "module": "volt",
+  "class": "Volt",
+  "ui": {
+   "view": "volt",
+   "title": "VOLT — Hardware Intelligence"
+  },
+  "capabilities": [
+   "cpu",
+   "memory",
+   "storage",
+   "battery",
+   "network",
+   "temperature"
+  ]
+ }
+]

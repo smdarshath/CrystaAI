@@ -1,0 +1,2 @@
+# optional extras (Crysta runs without them)
+pyautogui>=0.9.54   # keyboard/mouse control + screenshots

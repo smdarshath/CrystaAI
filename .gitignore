@@ -1,0 +1,11 @@
+data/*
+!data/README.md
+.env
+__pycache__/
+*.pyc
+.venv/
+*.db
+*.log
+models/*
+!models/README.md
+backups/

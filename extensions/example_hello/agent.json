@@ -1,0 +1,11 @@
+{
+  "id": "hello_ext",
+  "name": "HELLO",
+  "description": "Example extension agent: answers 'say hello extension'. Copy this folder to start your own.",
+  "module": "agent.py",
+  "class": "HelloAgent",
+  "ui": {"title": "HELLO - example extension"},
+  "capabilities": ["greeting"],
+  "permissions": ["calculator"],
+  "triggers": ["say hello extension"]
+}

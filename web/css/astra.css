@@ -1,0 +1,24 @@
+/* ASTRA: science lab — deep violet cosmos with drifting stars, rounded glass panels */
+#ws-astra{--a:#a78bfa;background:#0a0618;color:#ece6ff;font-family:system-ui,"Segoe UI",sans-serif}
+#ws-astra::before{content:"";position:absolute;inset:-50%;background-image:radial-gradient(1.5px 1.5px at 20px 30px,#fff,transparent),radial-gradient(1px 1px at 120px 80px,#c4b5fd,transparent),radial-gradient(1.5px 1.5px at 200px 150px,#fff,transparent),radial-gradient(1px 1px at 60px 190px,#f0abfc,transparent);background-size:240px 240px;opacity:.55;animation:adrift 140s linear infinite;pointer-events:none}
+@keyframes adrift{to{transform:translate(240px,240px)}}
+#ws-astra>*{position:relative}
+#ws-astra .ws-back{border-color:var(--a);color:var(--a);background:rgba(167,139,250,.1);border-radius:20px;font-family:inherit}#ws-astra .ws-back:hover{background:var(--a);color:#150a35}
+.a-head{display:flex;align-items:center;gap:18px;padding:12px 18px}.a-logo{font-size:22px;letter-spacing:.3em;color:#e9e0ff;text-shadow:0 0 18px rgba(167,139,250,.9)}.a-logo small{display:block;font-size:9px;letter-spacing:.3em;color:#9a85d9}
+.a-body{flex:1;display:grid;grid-template-columns:170px minmax(0,1fr) 320px;gap:14px;padding:0 14px 14px;min-height:0}
+.a-nav{display:flex;flex-direction:column;gap:6px;overflow:auto}.a-nav button{display:flex;gap:10px;align-items:center;text-align:left;background:rgba(40,24,90,.45);border:1px solid rgba(167,139,250,.25);border-radius:14px;padding:10px 12px;color:#d7cbff;cursor:pointer;font-size:13px}
+.a-nav button.on{background:linear-gradient(90deg,rgba(167,139,250,.55),rgba(240,171,252,.2));color:#fff;border-color:var(--a)}.dot{width:8px;height:8px;border-radius:50%;background:var(--a);box-shadow:0 0 8px var(--a)}
+.a-center,.a-right{background:rgba(24,14,58,.62);border:1px solid rgba(167,139,250,.28);border-radius:18px;padding:14px;overflow:auto;backdrop-filter:blur(6px)}
+h4{margin:6px 0 10px;font-size:10px;letter-spacing:.35em;color:#9a85d9;font-weight:400}
+.a-canvas,.a-svg{width:100%;max-width:640px;background:radial-gradient(circle at 50% 50%,rgba(60,30,130,.35),rgba(8,4,22,.8));border:1px solid rgba(167,139,250,.3);border-radius:14px;display:block}
+.a-sliders{display:flex;flex-wrap:wrap;gap:6px 22px;margin:10px 0}.a-sl{display:grid;grid-template-columns:auto 150px 56px;gap:8px;align-items:center;font-size:12px;color:#cdbfff}.a-sl input{accent-color:var(--a)}.a-sl b{font-weight:400;color:#7df9ff}
+.a-read{display:flex;flex-direction:column;gap:3px;background:rgba(10,6,24,.7);border:1px solid rgba(125,249,255,.3);border-radius:10px;padding:9px 12px;font-size:13px;color:#aef6ff;overflow-wrap:anywhere}
+.a-cap{font-size:11px;color:#9a85d9;line-height:1.5}.a-big{font-size:64px;text-align:center;color:#f0abfc;text-shadow:0 0 30px rgba(240,171,252,.7);padding:18px}
+.a-topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}.a-card{background:rgba(60,30,130,.3);border:1px solid rgba(167,139,250,.3);border-radius:14px;overflow:hidden}
+.a-ttl{width:100%;text-align:left;background:none;border:0;color:#f3edff;padding:11px 13px;font-size:14px;cursor:pointer}.a-ttl::after{content:" ＋";color:var(--a)}.a-ttl[aria-expanded=true]::after{content:" －"}
+.a-tbody{padding:0 13px 12px;font-size:13px;line-height:1.55;color:#d9ceff}.a-ans{margin-top:8px;font-size:12px;color:#aef6ff}
+.a-btn{background:rgba(167,139,250,.18);border:1px solid var(--a);color:#efe9ff;border-radius:18px;padding:6px 14px;font-size:11px;letter-spacing:.12em;cursor:pointer}.a-btn.primary{background:var(--a);color:#150a35}
+.a-in,.a-num{background:rgba(8,4,22,.8);border:1px solid rgba(167,139,250,.4);border-radius:10px;color:#fff;padding:8px 10px;width:100%;margin:3px 0}.a-num{width:70px}
+.a-lab{display:block;font-size:11px;color:#b9a9ee;margin:6px 0}.a-eq{font-size:20px;text-align:center;color:#f0abfc;padding:8px;background:rgba(240,171,252,.08);border-radius:10px}.err{color:#ff9a9a}
+@media (max-width:1100px){.a-body{grid-template-columns:150px minmax(0,1fr)}.a-right{grid-column:1/-1}}
+@media (max-width:640px){.a-body{grid-template-columns:minmax(0,1fr);overflow:auto;display:block}.a-nav{flex-direction:row;overflow:auto;margin-bottom:10px}.a-nav button{white-space:nowrap}.a-center,.a-right{margin-bottom:10px}.a-sl{grid-template-columns:auto 110px 50px}}

@@ -1,0 +1,23 @@
+/* NEXUS: knowledge archive — warm ink with gold, paper-like masonry cards, vertical timeline */
+#ws-nexus{--a:#f5c542;background:#14100a radial-gradient(circle at 90% 0,rgba(245,197,66,.14),transparent 50%);color:#f4ead2;font-family:Georgia,"Times New Roman",serif}
+#ws-nexus .ws-back{border-color:var(--a);color:var(--a);background:transparent;font-family:inherit}#ws-nexus .ws-back:hover{background:var(--a);color:#241a00}
+.x-head{display:flex;align-items:center;gap:14px;padding:12px 18px;border-bottom:1px solid rgba(245,197,66,.35);flex-wrap:wrap}.x-logo{font-size:20px;letter-spacing:.3em;color:var(--a)}.x-logo small{display:block;font-size:9px;letter-spacing:.3em;color:#b79a4a}
+.x-search{flex:1;min-width:220px;background:#1d170c;border:1px solid rgba(245,197,66,.45);color:#fff;padding:10px 14px;border-radius:24px;font:inherit;font-size:14px}
+.x-btn{background:transparent;border:1px solid rgba(245,197,66,.6);color:var(--a);padding:6px 12px;font-size:11px;letter-spacing:.1em;cursor:pointer;text-decoration:none;font-family:system-ui,sans-serif}.x-btn.gold{background:var(--a);color:#241a00}.x-btn.danger{color:#ff9a8a;border-color:#8a4a40}
+.x-banner{background:rgba(245,197,66,.12);border-bottom:1px solid rgba(245,197,66,.4);padding:7px 18px;font-size:13px;display:flex;gap:12px;align-items:center}
+.x-body{flex:1;display:grid;grid-template-columns:200px minmax(0,1fr) 250px;min-height:0}
+.x-side{padding:14px;border-right:1px solid rgba(245,197,66,.2);overflow:auto;display:flex;flex-direction:column;gap:6px}.x-tl{padding:14px;border-left:1px solid rgba(245,197,66,.2);overflow:auto}
+h4{margin:12px 0 6px;font-size:10px;letter-spacing:.35em;color:#b79a4a;font-weight:400;font-family:system-ui,sans-serif}
+.x-chip{display:flex;justify-content:space-between;background:transparent;border:1px solid rgba(245,197,66,.2);color:#e8dcb9;padding:7px 10px;cursor:pointer;font:inherit;font-size:13px;text-transform:capitalize}.x-chip.on{background:rgba(245,197,66,.18);border-color:var(--a);color:#fff}.x-chip b{font-weight:400;color:var(--a)}
+.x-main{overflow:auto;padding:16px}.x-masonry{columns:250px;column-gap:14px}
+.x-card{break-inside:avoid;background:#efe3c3;color:#2b2210;margin:0 0 14px;padding:14px;border-radius:3px 3px 3px 14px;box-shadow:3px 4px 0 rgba(0,0,0,.4);display:block}.x-card h5{margin:6px 0;font-size:16px}.x-card p{margin:0 0 8px;font-size:14px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}
+.x-card.mem{background:#d8e6c9;border-radius:14px 3px 3px 3px}.x-card.know{background:#d6dbe8;font-style:italic}
+.x-tag{display:inline-block;font:10px/1 system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:#2b2210;color:var(--a);padding:3px 6px;margin-right:4px}.x-tag.proj{background:#6a4a10}
+.x-cfoot{display:flex;justify-content:space-between;align-items:center;font:11px system-ui,sans-serif;color:#6a5a30}.x-cfoot .x-btn{padding:2px 8px;color:#2b2210;border-color:#2b2210}
+.x-found{column-span:all;margin-bottom:12px;color:#d9c98a;font-size:13px}.x-empty{padding:30px;color:#b79a4a;text-align:center;column-span:all}
+.x-day{font:10px system-ui,sans-serif;letter-spacing:.2em;color:var(--a);margin:12px 0 4px;text-transform:uppercase}.x-ev{position:relative;padding:3px 0 3px 18px;font-size:12px;border-left:1px solid rgba(245,197,66,.4);display:flex;flex-direction:column}.x-ev i{position:absolute;left:-4px;top:8px;width:7px;height:7px;border-radius:50%;background:var(--a)}.x-ev.memory i{background:#9be37a}.x-ev small{color:#8c7a45;font-family:system-ui}
+.x-foot{display:flex;gap:10px;align-items:center;padding:8px 18px;border-top:1px solid rgba(245,197,66,.3);font:12px system-ui,sans-serif;color:#b79a4a;flex-wrap:wrap}.x-small{font:11px system-ui,sans-serif;color:#8c7a45}
+.x-modal{position:absolute;inset:0;background:rgba(0,0,0,.65);display:grid;place-items:center;z-index:6}.x-box{background:#1d170c;border:1px solid var(--a);padding:18px;width:min(480px,92%);display:flex;flex-direction:column;gap:12px}.x-box h3{margin:0;color:var(--a);font-size:14px;letter-spacing:.2em}
+.x-form{display:flex;flex-direction:column;gap:8px}.x-form input,.x-form textarea{background:#14100a;border:1px solid rgba(245,197,66,.45);color:#fff;padding:8px;font:inherit}.x-err{color:#ff9a8a;font-size:12px}
+@media (max-width:980px){.x-body{grid-template-columns:170px minmax(0,1fr)}.x-tl{display:none}}
+@media (max-width:620px){.x-body{display:block;overflow:auto}.x-side{flex-direction:row;flex-wrap:wrap;border:0}.x-masonry{columns:1}}

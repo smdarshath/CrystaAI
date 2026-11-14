@@ -1,0 +1,1 @@
+Optional: put .gguf files here only if you use a runner that reads this folder. Crysta never downloads models automatically. Recommended path: install Ollama and run 'ollama pull llama3.2:3b' (or a smaller model on low-RAM machines).
